@@ -1,0 +1,343 @@
+{
+  "data": [
+    [
+      {
+        "id": 1,
+        "first_time": "10:00",
+        "second_time": "11:30",
+        "teacher": "Ağababa"
+      },
+      {
+        "id": 2,
+        "first_time": "11:30",
+        "second_time": "13:00",
+        "teacher": "Elgün"
+      },
+      {
+        "id": 3,
+        "first_time": "13:00",
+        "second_time": "14:30",
+        "teacher": "Yaqub"
+      },
+      {
+        "id": 4,
+        "first_time": "14:30",
+        "second_time": "16:00",
+        "teacher": "Ağababa"
+      },
+      {
+        "id": 5,
+        "first_time": "16:00",
+        "second_time": "17:30",
+        "teacher": "Elgün"
+      },
+      {
+        "id": 6,
+        "first_time": "17:30",
+        "second_time": "19:00",
+        "teacher": "Yaqub"
+      }
+    ]
+  ],
+  "columns": [
+    {
+      "id": 1,
+      "heading": "",
+      "date": "",
+      "value": "first_time",
+      "value2": "second_time"
+    },
+    {
+      "id": 2,
+      "heading": "Mon.",
+      "date": "14 mar.",
+      "value": "class"
+    },
+    {
+      "heading": "Tue.",
+      "date": "15 mar.",
+      "value": "class"
+    },
+    {
+      "heading": "Wed.",
+      "date": "16 mar.",
+      "value": "class"
+    },
+    {
+      "heading": "Thu.",
+      "date": "17 mar.",
+      "value": "class"
+    },
+    {
+      "heading": "Fri.",
+      "date": "18 mar.",
+      "value": "class"
+    },
+    {
+      "heading": "Sat.",
+      "date": "19 mar.",
+      "value": "class"
+    },
+    {
+      "heading": "Sun.",
+      "date": "20 mar.",
+      "value": "class"
+    }
+  ],
+  "teachers": [],
+  "classes": [],
+  "students": [
+    {
+      "openModal": true,
+      "studentName": "khayyam omar",
+      "parentName": "s",
+      "birthday": "1998-03-11",
+      "phoneNumber": "0555414750",
+      "email": "khayyam.omarov@gmail.com",
+      "password": "fds",
+      "class": "UX/UI",
+      "lessonAmount": "15",
+      "status": "Active",
+      "id": 1
+    }
+  ],
+  "salary": [
+    {
+      "_id": 1,
+      "name": "Agababa Baghirov",
+      "count": 10,
+      "salary": 15,
+      "totalSalary": 1000,
+      "cancelled": 2
+    },
+    {
+      "_id": 2,
+      "name": "Shahin Mammadov",
+      "count": 12,
+      "salary": 15,
+      "totalSalary": 300,
+      "cancelled": 2
+    },
+    {
+      "_id": 3,
+      "name": "Nargiz Aliyeva",
+      "count": 13,
+      "salary": 15,
+      "totalSalary": 400,
+      "cancelled": 2
+    },
+    {
+      "_id": 4,
+      "name": "Lala Suleymanlı",
+      "count": 15,
+      "salary": 15,
+      "totalSalary": 100,
+      "cancelled": 2
+    },
+    {
+      "_id": 5,
+      "name": "Eyyub Agalarov",
+      "count": 10,
+      "salary": 15,
+      "totalSalary": 2000,
+      "cancelled": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "khayyam.omarov@gmail.com",
+      "password": "xeyyam123"
+    }
+  ],
+  "studentData": [
+    {
+      "id": 1,
+      "fullName": "Aisa.M"
+    },
+    {
+      "id": 2,
+      "fullName": "Cavad.S"
+    },
+    {
+      "id": 3,
+      "fullName": "Xayyam.B"
+    },
+    {
+      "id": 4,
+      "fullName": "Aisa.M"
+    },
+    {
+      "id": 5,
+      "fullName": "Xayyam.B"
+    }
+  ],
+  "notification": [
+    {
+      "id": 1,
+      "img": "timeNotImg",
+      "name": "Agababa Bagirov",
+      "content": "Tələbənin dərsi bitti.",
+      "time": "10.02.2023"
+    },
+    {
+      "id": 2,
+      "img": "birthdayNotImg",
+      "name": "Xayyam Mammadov",
+      "content": "Doğum günü.",
+      "time": "10.02.2023"
+    }
+  ],
+  "expenses": [
+    {
+      "_id": 1,
+      "destination": "çay",
+      "value": "25",
+      "date": "11.11.2023"
+    }
+  ],
+  "income": [
+    {
+      "_id": 1,
+      "payer": "name",
+      "serviceName": "aaa",
+      "unitMeasurement": "bbbb",
+      "quantity": 10,
+      "unitPrice": 100,
+      "recipient": "name",
+      "amount": 1000,
+      "date": "11.11.2023",
+      "paymentMethod": "kart",
+      "IMX": "1323"
+    },
+    {
+      "_id": 1,
+      "payer": "name",
+      "serviceName": "aaa",
+      "unitMeasurement": "bbbb",
+      "quantity": 10,
+      "unitPrice": 100,
+      "recipient": "name",
+      "amount": 1000,
+      "date": "11.11.2023",
+      "paymentMethod": "kart",
+      "IMX": "1323"
+    }
+  ],
+  "bonus": [
+    {
+      "_id": 1,
+      "teacherName": "Agababa",
+      "comment": "lorem lorem",
+      "bonus": 100,
+      "date": "11.11.2023"
+    }
+  ],
+  "fine": [
+    {
+      "_id": 1,
+      "teacherName": "Aababa",
+      "comment": "lorem100",
+      "fineType": "lorem lorem",
+      "date": "11.11.2023"
+    }
+  ],
+  "teacher-feedback": [
+    {
+      "_id": 1,
+      "name": "Aababa",
+      "aboutWho": "Mustafa",
+      "feedback": "lorem lorem",
+      "date": "11.11.2023"
+    }
+  ],
+  "student-feedback": [
+    {
+      "_id": 1,
+      "name": "Aababa",
+      "aboutWho": "Mustafa",
+      "feedback": "lorem lorem",
+      "date": "11.11.2023"
+    }
+  ],
+  "tables": [
+    {
+      "category": "vipTable",
+      "deposit": "100",
+      "oneMinutePrice": "1",
+      "tableNumber": "1",
+      "_id": 1
+    },
+    {
+      "category": "vipTable",
+      "deposit": "11",
+      "oneMinutePrice": "1",
+      "tableNumber": "1",
+      "id": 2
+    },
+    {
+      "category": "gameTable",
+      "deposit": "3",
+      "oneMinutePrice": "1",
+      "tableNumber": "3",
+      "id": 3
+    },
+    {
+      "category": "vipTable",
+      "deposit": "100",
+      "oneMinutePrice": "1",
+      "tableNumber": "1",
+      "id": 4
+    },
+    {
+      "category": "vipTable",
+      "id": 5
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "İçki"
+    }
+  ],
+  "warehouse": [
+    {
+      "id": 1,
+      "category": "drink",
+      "product": "cola",
+      "amount": 1000
+    },
+    {
+      "amount": "100",
+      "product": "cips",
+      "id": 2
+    },
+    {
+      "category": "Kimya esaslari",
+      "product": "111",
+      "amount": "111",
+      "id": 3
+    },
+    {
+      "category": "Roboto",
+      "product": "24234",
+      "amount": "4343",
+      "id": 4
+    }
+  ],
+  "menus": [
+    {
+      "product": "cola",
+      "inprice": "11",
+      "outprice": "11",
+      "unitAmount": "11",
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ]
+}

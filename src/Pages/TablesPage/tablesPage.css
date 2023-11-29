@@ -1,0 +1,23 @@
+.tables-container{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    margin-top: 40px;
+}
+.tables-container .table-box{
+    background-color: gray;
+    height: 150px;
+    margin: 0 20px 10px  20px;
+    width: 200px;
+    cursor: pointer;
+}
+.tables-container .table-box .table-box-container{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.tables-container .table-box .table-box-container h3{
+    color: white;
+    font-size: 18px;
+}
